@@ -1,0 +1,67 @@
+.dark{
+    --h1:#adb5bd;
+    --h2:#adb5bd;
+    --h4:#adb5bd;
+    --h5:#adb5bd;
+    --p: #adb5bd;
+    --mui:#26262c;
+    --scroll:black;
+    --color: #adb5bd;
+    --bck-clr: #26262c;
+    --btn-clr:#7a7a7a;
+    --brd-clr:black;
+    --div-clr:#7a7a7a;
+    --src-clr:#7a7a7a;
+    --nav-clr:black;
+    --side-clr:#26262c;
+    --burger-item:#7a7a7a;
+    --burger-txt:black;
+    --burger-bars:#7a7a7a;
+    --book-cover-clr:black;
+    --icn-pop-clr:#7a7a7a;
+    --icn-pop-brd:#7a7a7a;
+    --icn-pop-hov:#7a7a7a;
+    --focus:#7a7a7a;
+    --page-clr:blanchedalmond;
+    --toplist-clr: white;
+    --icon-clr: #7a7a7a;
+}
+.light{
+    --h1:#976940;
+    --h2:#976940;
+    --h4: #976940;
+    --h5:#976940;
+    --p: #976940;
+    --mui:#5e3d1f;
+    --scroll:#5e3d1f;
+    --color:bisque;
+    --btn-clr:#976940;
+    --brd-clr:#976940;
+    --div-clr:white;
+    --src-clr:white;
+    --bck-clr:rgb(248, 239, 226);
+    --nav-clr:#5e3d1f;
+    --side-clr:#5e3d1f;
+    --burger-item:antiquewhite;
+    --burger-txt:#1b0000;
+    --burger-bars:#976940;
+    --book-cover-clr:#42291a;
+    --icn-pop-clr:#ecca9a75;
+    --icn-pop-brd:blanchedalmond;
+    --icn-pop-hov:#a9957b;
+    --focus:#976940;
+    --page-clr:white;
+    --toplist-clr: black;
+    --icon-clr:black;
+}
+
+#change{
+    padding: 5px;
+    height: auto;
+    background-color: var(--btn-clr);
+    border-radius: 5px;
+    border: 0.1em solid var(--brd-clr);
+    width: auto;
+    margin-left: 2em;
+    margin-right: 1em;
+}
