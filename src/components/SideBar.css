@@ -1,0 +1,81 @@
+/* Burger button styling */
+.bm-burger-button {
+    position: relative;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    margin: auto;
+    margin-right: 2em;
+  }
+  
+  /* Burger icon styling */
+  .bm-burger-bars {
+    background: var(--burger-bars);
+    transition: 0.3s;
+  }
+  
+  .bm-burger-bars-hover {
+    background: var(--burger-item);
+  }
+  
+  /* Cross button on sidebar */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .bm-cross {
+    background: var(--burger-item);
+  }
+  
+  /*Sidebar wrapper styles*/
+
+  .bm-menu-wrap {
+    position: fixed;
+    top: 0;
+    height: 100%;
+  }
+  
+  .bm-menu {
+    background: var(--side-clr);
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+
+  .bm-morph-shape {
+    fill: var(--side-clr);
+  }
+  
+  .bm-item-list {
+    color: var(--burger-item);
+    padding: 0.8em;
+  }
+  
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.4);
+  }
+  /* Individual item */
+  #hamburgerButton{
+    background-color: var(--side-clr);
+    color:var(--color);
+    border-color: var(--side-clr);
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: none;
+    transition: color 0.2s;
+    border-radius: 5px;
+  }
+
+  #hamburgerButton:hover{
+    color: var(--burger-txt);
+  }
+
+ 
+
+
